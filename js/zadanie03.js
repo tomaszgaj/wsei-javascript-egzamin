@@ -1,10 +1,10 @@
 function bigestSumOfTwoElements(array) {
 
-    if(array.length == 0) {
+    if (array.length == 0) {
         return false;
     }
 
-    else if(array.length == 1) {
+    else if (array.length == 1) {
         return console.log(array[0]);
     }
 
@@ -15,7 +15,7 @@ function bigestSumOfTwoElements(array) {
     }
 }
 
-console.log(bigestSumOfTwoElements([1,2,3,4]));
+console.log(bigestSumOfTwoElements([1, 2, 3, 4]));
 console.log(bigestSumOfTwoElements([]));
 console.log(bigestSumOfTwoElements([76]));
-console.log(bigestSumOfTwoElements([23,45,17,12]));
+console.log(bigestSumOfTwoElements([23, 45, 17, 12]));
